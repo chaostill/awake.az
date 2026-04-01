@@ -8,8 +8,15 @@ function getLocale(request: NextRequest): string {
 	request.headers.forEach((value, key) => {
 		headers[key] = value
 	})
-	const languages = new Negotiator({ headers }).languages()
-	return match(languages, [...locales], defaultLocale)
+	const languages = new Negotiator({ headers })
+		.languages()
+		.filter((lang) => lang !== "*")
+	if (languages.length === 0) return defaultLocale
+	try {
+		return match(languages, [...locales], defaultLocale)
+	} catch {
+		return defaultLocale
+	}
 }
 
 export function i18nMiddleware(request: NextRequest) {

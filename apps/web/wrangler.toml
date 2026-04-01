@@ -6,10 +6,10 @@ compatibility_flags = ["nodejs_compat"]
 # Disable the *.workers.dev URL — serve only via custom domain
 workers_dev = false
 
-# Route all traffic through awake.az
+# Custom domains — Cloudflare auto-creates DNS records for these
 routes = [
-  { pattern = "awake.az/*", zone_name = "awake.az" },
-  { pattern = "www.awake.az/*", zone_name = "awake.az" },
+  { pattern = "awake.az", custom_domain = true },
+  { pattern = "www.awake.az", custom_domain = true },
 ]
 
 [assets]
