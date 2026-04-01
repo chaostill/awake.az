@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "@awake/design-system/tokens.css";
+
+body {
+	background-color: var(--awake-espresso);
+	color: var(--awake-parchment);
+	font-family: var(--font-body);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Grain texture — subtle coffee paper feel ── */
+body::after {
+	content: "";
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	z-index: 9999;
+	opacity: 0.02;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+	mix-blend-mode: overlay;
+}
+
+::selection {
+	background: color-mix(in srgb, var(--awake-coffee) 40%, transparent);
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(212, 197, 169, 0.08);
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(212, 197, 169, 0.15);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* ── Coffee divider — warm gradient line ── */
+.coffee-divider {
+	position: relative;
+	height: 1px;
+	margin: 0 auto;
+	max-width: 80rem;
+	background: linear-gradient(
+		to right,
+		transparent 0%,
+		color-mix(in srgb, var(--awake-coffee) 8%, transparent) 10%,
+		color-mix(in srgb, var(--awake-coffee) 20%, transparent) 50%,
+		color-mix(in srgb, var(--awake-coffee) 8%, transparent) 90%,
+		transparent 100%
+	);
+}
+
+/* ── Monospace label style ── */
+.label {
+	font-family: var(--font-mono);
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: var(--awake-text-muted);
+}
+
+/* ── Data mono style ── */
+.data-mono {
+	font-family: var(--font-mono);
+	font-variant-numeric: tabular-nums;
+}
+
+/* ── Stagger animation helper ── */
+.stagger-in > * {
+	opacity: 0;
+	transform: translateY(12px);
+	animation: stagger-fade-in 0.5s ease-out forwards;
+}
+.stagger-in > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-in > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger-in > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-in > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger-in > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-in > *:nth-child(6) { animation-delay: 0.3s; }
+
+@keyframes stagger-fade-in {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

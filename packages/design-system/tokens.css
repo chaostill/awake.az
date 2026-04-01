@@ -1,0 +1,59 @@
+/*
+ * AWAKE.AZ Design Tokens — "Coffee Codex"
+ * An editorial coffee intelligence aesthetic.
+ * Black + white + coffee tones. Dark mode default.
+ */
+
+:root {
+	/* ── Core — From the Bean ── */
+	--awake-espresso: #0D0906;
+	--awake-roast: #1A1209;
+	--awake-crema: #2A1F14;
+
+	/* ── Text — From the Parchment ── */
+	--awake-parchment: #F5F0E8;
+	--awake-cream: #D4C5A9;
+	--awake-text-muted: #8C7B6B;
+	--awake-text-dim: #5C4F42;
+
+	/* ── Accent — From the Origin ── */
+	--awake-coffee: #6F4E37;
+	--awake-gold: #C4A35A;
+	--awake-cherry: #C23B22;
+	--awake-leaf: #5A7247;
+	--awake-water: #4A7C8C;
+
+	/* ── Surface — Layered Depth ── */
+	--awake-surface-0: #0D0906;
+	--awake-surface-1: #1A1209;
+	--awake-surface-2: #251C12;
+	--awake-surface-3: #32261A;
+
+	/* ── Border ── */
+	--awake-border: rgba(212, 197, 169, 0.1);
+	--awake-border-hover: rgba(212, 197, 169, 0.2);
+
+	/* ── Spacing Scale ── */
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-5: 20px;
+	--space-6: 24px;
+	--space-8: 32px;
+	--space-10: 40px;
+	--space-12: 48px;
+	--space-16: 64px;
+	--space-20: 80px;
+
+	/* ── Border Radius ── */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-lg: 12px;
+	--radius-xl: 16px;
+
+	/* ── Font Families ── */
+	--font-display: "Instrument Serif", Georgia, serif;
+	--font-body: "DM Sans", system-ui, sans-serif;
+	--font-mono: "JetBrains Mono", monospace;
+}

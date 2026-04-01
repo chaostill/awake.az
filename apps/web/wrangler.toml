@@ -1,0 +1,17 @@
+name = "awake-az-web"
+main = ".open-next/worker.js"
+compatibility_date = "2025-03-25"
+compatibility_flags = ["nodejs_compat"]
+
+# Disable the *.workers.dev URL — serve only via custom domain
+workers_dev = false
+
+# Route all traffic through awake.az
+routes = [
+  { pattern = "awake.az/*", zone_name = "awake.az" },
+  { pattern = "www.awake.az/*", zone_name = "awake.az" },
+]
+
+[assets]
+directory = ".open-next/assets"
+binding = "STATIC_ASSETS"

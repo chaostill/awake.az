@@ -1,0 +1,49 @@
+# dependencies
+**/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# build outputs
+.next/
+/out/
+dist/
+.open-next/
+/build
+
+# cloudflare
+.wrangler/
+
+# turbo
+.turbo/
+
+# env files
+.env*
+.env.*.local
+
+# misc
+.DS_Store
+*.pem
+desktop.ini
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+
+# editor / IDE
+.vscode/
+
+# Continuous Claude cache
+.claude/cache/

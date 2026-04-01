@@ -1,0 +1,31 @@
+{
+	"name": "@awake/internationalization",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.ts",
+			"default": "./index.ts"
+		},
+		"./locales": {
+			"types": "./locales.ts",
+			"default": "./locales.ts"
+		},
+		"./dictionaries/*": "./dictionaries/*"
+	},
+	"dependencies": {
+		"@formatjs/intl-localematcher": "^0.6.0",
+		"negotiator": "^1.0.0",
+		"server-only": "^0.0.1"
+	},
+	"devDependencies": {
+		"@awake/typescript-config": "workspace:*",
+		"@types/negotiator": "^0.6.4",
+		"typescript": "^5.9.3"
+	},
+	"peerDependencies": {
+		"next": ">=15",
+		"react": "^19.0.0"
+	}
+}

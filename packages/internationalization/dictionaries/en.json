@@ -1,0 +1,135 @@
+{
+	"meta": {
+		"title": "AWAKE — Coffee Intelligence Platform",
+		"description": "Market data, trade analytics, and curated sellers for Azerbaijan's coffee ecosystem. From bean to cup, powered by data."
+	},
+	"nav": {
+		"home": "Home",
+		"prices": "Prices",
+		"about": "About",
+		"services": "Services",
+		"contact": "Contact",
+		"directory": "Directory",
+		"blog": "Blog",
+		"join": "Request Access"
+	},
+	"hero": {
+		"badge": "Coffee Intelligence",
+		"title": "Where Data Meets the Bean",
+		"subtitle": "Real-time market intelligence, historical trade analytics, and a curated directory of Azerbaijan's finest coffee sellers — all in one platform.",
+		"cta_primary": "Explore Prices",
+		"cta_secondary": "Learn More"
+	},
+	"ticker": {
+		"arabica_label": "Arabica",
+		"robusta_label": "Robusta",
+		"updated": "Updated"
+	},
+	"stats": {
+		"title": "Global Coffee at a Glance",
+		"subtitle": "Key metrics from the world's most traded agricultural commodity.",
+		"production": "Global Production",
+		"production_value": "178M",
+		"production_unit": "bags/year",
+		"consumption": "Global Consumption",
+		"consumption_value": "175M",
+		"consumption_unit": "bags/year",
+		"trade_value": "Trade Value",
+		"trade_value_amount": "$26B",
+		"trade_value_unit": "annual exports",
+		"countries": "Producing Countries",
+		"countries_value": "70+",
+		"countries_unit": "origins worldwide"
+	},
+	"sellers": {
+		"title": "Featured Sellers",
+		"subtitle": "Curated specialty roasters and sellers across Azerbaijan.",
+		"view_all": "View Directory",
+		"location": "Location",
+		"specialty": "Specialty"
+	},
+	"services": {
+		"title": "Beyond the Cup",
+		"subtitle": "Premium services for businesses and connoisseurs who demand more.",
+		"data_title": "Data & Analytics",
+		"data_desc": "Custom market reports, price forecasting models, and trade flow analysis built on decades of historical data.",
+		"tech_title": "Technology Solutions",
+		"tech_desc": "Software development, AI integration, data engineering, and cloud infrastructure tailored for the coffee industry.",
+		"consulting_title": "Strategic Consulting",
+		"consulting_desc": "Supply chain optimization, market entry strategy, and sourcing partnerships powered by our global network.",
+		"storage_title": "Digital Infrastructure",
+		"storage_desc": "Secure data storage, API access, and custom dashboards for real-time monitoring of your coffee operations."
+	},
+	"cta": {
+		"title": "Join the Network",
+		"subtitle": "AWAKE is currently invite-only. Request access to get early entry into Azerbaijan's premier coffee intelligence platform.",
+		"button": "Request Access",
+		"note": "No payment required. Membership is free during early access."
+	},
+	"about": {
+		"title": "About AWAKE",
+		"subtitle": "Built in Baku, for the world.",
+		"mission_title": "Our Mission",
+		"mission": "To democratize coffee market intelligence. We believe every roaster, trader, and enthusiast deserves access to the same caliber of data that was once reserved for commodity trading floors.",
+		"story_title": "Our Story",
+		"story": "AWAKE was born from a simple observation: Azerbaijan's coffee culture is booming, but the data infrastructure hasn't kept pace. We set out to build a platform that bridges the gap between global coffee markets and local industry — combining decades of historical data from the ICO, World Bank, and UN with on-the-ground intelligence from Azerbaijan's growing specialty scene.",
+		"values_title": "Our Values",
+		"value_1_title": "Data First",
+		"value_1": "Every insight is grounded in verified, open-source data from authoritative global institutions.",
+		"value_2_title": "Local Roots",
+		"value_2": "We know Azerbaijan's coffee landscape intimately — the roasters, the sellers, the culture.",
+		"value_3_title": "Open Access",
+		"value_3": "Premium intelligence shouldn't be locked behind commodity-trader paywalls. We're building for everyone."
+	},
+	"contact": {
+		"title": "Get in Touch",
+		"subtitle": "Whether you're a roaster, seller, or data enthusiast — we'd love to hear from you.",
+		"email_label": "Email",
+		"email": "hello@awake.az",
+		"location_label": "Location",
+		"location": "Baku, Azerbaijan",
+		"social_label": "Social",
+		"form_name": "Name",
+		"form_email": "Email",
+		"form_message": "Message",
+		"form_submit": "Send Message"
+	},
+	"services_page": {
+		"title": "Services",
+		"subtitle": "Full-spectrum capabilities for the modern coffee enterprise.",
+		"data_intelligence_title": "Data Intelligence",
+		"data_intelligence_desc": "Custom market models, price forecasting, trade flow visualization, and automated reporting. We process data from the ICO, World Bank, USDA, FAOSTAT, and UN Comtrade to deliver actionable insights.",
+		"software_title": "Software Engineering",
+		"software_desc": "End-to-end software development — web platforms, mobile apps, APIs, and data pipelines. Built with modern architecture: React, Node.js, cloud-native infrastructure, and AI-powered features.",
+		"ai_title": "AI & Machine Learning",
+		"ai_desc": "Predictive analytics, demand forecasting, quality grading automation, and natural language interfaces for your coffee data. Custom models trained on industry-specific datasets.",
+		"infrastructure_title": "Cloud Infrastructure",
+		"infrastructure_desc": "Secure, scalable hosting and data storage. API access to our market data feeds. Custom dashboards and monitoring solutions deployed to edge networks worldwide.",
+		"consulting_title": "Strategic Consulting",
+		"consulting_desc": "Market entry strategy, supply chain optimization, sourcing partnerships, and competitive intelligence. Leverage our network across 70+ coffee-producing countries.",
+		"cta": "Discuss Your Project"
+	},
+	"prices": {
+		"title": "Coffee Prices",
+		"subtitle": "Historical and current market data for Arabica and Robusta coffee, sourced from the World Bank and ICO.",
+		"chart_title": "Historical Prices (USD/kg)",
+		"arabica": "Arabica",
+		"robusta": "Robusta",
+		"range_1y": "1Y",
+		"range_5y": "5Y",
+		"range_10y": "10Y",
+		"range_all": "All",
+		"table_title": "Recent Monthly Prices",
+		"month": "Month",
+		"source": "Source: World Bank Commodity Price Data (Pink Sheet)"
+	},
+	"footer": {
+		"brand": "AWAKE",
+		"tagline": "Coffee Intelligence Platform",
+		"nav_title": "Navigate",
+		"data_title": "Data",
+		"company_title": "Company",
+		"copyright": "2025 AWAKE. All rights reserved.",
+		"built": "Built in Baku."
+	}
+}

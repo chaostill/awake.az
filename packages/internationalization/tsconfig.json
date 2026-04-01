@@ -1,0 +1,9 @@
+{
+	"extends": "@awake/typescript-config/react-library.json",
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"outDir": "dist"
+	},
+	"include": ["**/*.ts", "**/*.tsx", "**/*.json"],
+	"exclude": ["node_modules", "dist"]
+}

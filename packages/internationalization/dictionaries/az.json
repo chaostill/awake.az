@@ -1,0 +1,135 @@
+{
+	"meta": {
+		"title": "AWAKE — Qəhvə Kəşfiyyat Platforması",
+		"description": "Azərbaycanın qəhvə ekosistemi üçün bazar məlumatları, ticarət analitikası və seçilmiş satıcılar. Dənədən fincana, verilənlərə əsaslanan."
+	},
+	"nav": {
+		"home": "Ana Səhifə",
+		"prices": "Qiymətlər",
+		"about": "Haqqımızda",
+		"services": "Xidmətlər",
+		"contact": "Əlaqə",
+		"directory": "Kataloq",
+		"blog": "Bloq",
+		"join": "Giriş Tələb Et"
+	},
+	"hero": {
+		"badge": "Qəhvə Kəşfiyyatı",
+		"title": "Verilənlər Dənə ilə Görüşür",
+		"subtitle": "Real vaxt bazar kəşfiyyatı, tarixi ticarət analitikası və Azərbaycanın ən yaxşı qəhvə satıcılarının seçilmiş kataloqu — hamısı bir platformada.",
+		"cta_primary": "Qiymətləri Araşdır",
+		"cta_secondary": "Ətraflı"
+	},
+	"ticker": {
+		"arabica_label": "Arabika",
+		"robusta_label": "Robusta",
+		"updated": "Yenilənib"
+	},
+	"stats": {
+		"title": "Qlobal Qəhvəyə Baxış",
+		"subtitle": "Dünyanın ən çox satılan kənd təsərrüfatı məhsulunun əsas göstəriciləri.",
+		"production": "Qlobal İstehsal",
+		"production_value": "178M",
+		"production_unit": "kisə/il",
+		"consumption": "Qlobal İstehlak",
+		"consumption_value": "175M",
+		"consumption_unit": "kisə/il",
+		"trade_value": "Ticarət Dəyəri",
+		"trade_value_amount": "$26B",
+		"trade_value_unit": "illik ixrac",
+		"countries": "İstehsalçı Ölkələr",
+		"countries_value": "70+",
+		"countries_unit": "dünya üzrə mənşə"
+	},
+	"sellers": {
+		"title": "Seçilmiş Satıcılar",
+		"subtitle": "Azərbaycan üzrə seçilmiş ixtisas qovurucuları və satıcılar.",
+		"view_all": "Kataloqa Bax",
+		"location": "Yer",
+		"specialty": "İxtisas"
+	},
+	"services": {
+		"title": "Fincandan Kənarda",
+		"subtitle": "Daha çox tələb edən müəssisələr və bilicilər üçün premium xidmətlər.",
+		"data_title": "Verilənlər və Analitika",
+		"data_desc": "Onilliklərlə tarixi verilənlərə əsaslanan xüsusi bazar hesabatları, qiymət proqnozlaşdırma modelləri və ticarət axını analizi.",
+		"tech_title": "Texnologiya Həlləri",
+		"tech_desc": "Qəhvə sənayesi üçün uyğunlaşdırılmış proqram təminatı, süni intellekt inteqrasiyası, verilənlər mühəndisliyi və bulud infrastrukturu.",
+		"consulting_title": "Strateji Məsləhət",
+		"consulting_desc": "Qlobal şəbəkəmiz vasitəsilə təchizat zəncirinin optimallaşdırılması, bazara giriş strategiyası və mənbə tərəfdaşlıqları.",
+		"storage_title": "Rəqəmsal İnfrastruktur",
+		"storage_desc": "Qəhvə əməliyyatlarınızın real vaxt monitorinqi üçün təhlükəsiz verilənlər saxlama, API giriş və xüsusi panellər."
+	},
+	"cta": {
+		"title": "Şəbəkəyə Qoşulun",
+		"subtitle": "AWAKE hazırda yalnız dəvətnamə ilə fəaliyyət göstərir. Azərbaycanın premier qəhvə kəşfiyyat platformasına erkən giriş əldə edin.",
+		"button": "Giriş Tələb Et",
+		"note": "Ödəniş tələb olunmur. Erkən giriş zamanı üzvlük pulsuzdur."
+	},
+	"about": {
+		"title": "AWAKE Haqqında",
+		"subtitle": "Bakıda qurulub, dünya üçün.",
+		"mission_title": "Missiyamız",
+		"mission": "Qəhvə bazarı kəşfiyyatını demokratikləşdirmək. İnanırıq ki, hər qovurucu, tacir və həvəskar əmtəə ticarət meydançalarına ayrılmış eyni keyfiyyətli verilənlərə çıxış əldə etməlidir.",
+		"story_title": "Hekayəmiz",
+		"story": "AWAKE sadə bir müşahidədən doğuldu: Azərbaycanın qəhvə mədəniyyəti sürətlə inkişaf edir, amma verilənlər infrastrukturu eyni sürətlə irəliləməyib. Qlobal qəhvə bazarları ilə yerli sənaye arasındakı boşluğu dolduran bir platforma qurmağa başladıq.",
+		"values_title": "Dəyərlərimiz",
+		"value_1_title": "Verilənlər Birinci",
+		"value_1": "Hər bir fikir nüfuzlu qlobal qurumlardan yoxlanılmış, açıq mənbəli verilənlərə əsaslanır.",
+		"value_2_title": "Yerli Köklər",
+		"value_2": "Azərbaycanın qəhvə mənzərəsini yaxından tanıyırıq — qovurucuları, satıcıları, mədəniyyəti.",
+		"value_3_title": "Açıq Giriş",
+		"value_3": "Premium kəşfiyyat əmtəə taciri ödəniş divarlarının arxasında kilidlənməməlidir."
+	},
+	"contact": {
+		"title": "Əlaqə Saxlayın",
+		"subtitle": "İstər qovurucu, satıcı, istərsə də verilənlər həvəskarı olun — sizdən eşitmək istəyirik.",
+		"email_label": "E-poçt",
+		"email": "hello@awake.az",
+		"location_label": "Yer",
+		"location": "Bakı, Azərbaycan",
+		"social_label": "Sosial",
+		"form_name": "Ad",
+		"form_email": "E-poçt",
+		"form_message": "Mesaj",
+		"form_submit": "Mesaj Göndər"
+	},
+	"services_page": {
+		"title": "Xidmətlər",
+		"subtitle": "Müasir qəhvə müəssisəsi üçün tam spektrli imkanlar.",
+		"data_intelligence_title": "Verilənlər Kəşfiyyatı",
+		"data_intelligence_desc": "Xüsusi bazar modelləri, qiymət proqnozlaşdırması, ticarət axını vizuallaşdırması və avtomatlaşdırılmış hesabatlar.",
+		"software_title": "Proqram Mühəndisliyi",
+		"software_desc": "Başdan-başa proqram təminatı — veb platformalar, mobil tətbiqlər, API-lər və verilənlər boru kəmərləri.",
+		"ai_title": "Süni İntellekt",
+		"ai_desc": "Proqnoz analitikası, tələb proqnozlaşdırması, keyfiyyət qiymətləndirmə avtomatlaşdırması.",
+		"infrastructure_title": "Bulud İnfrastrukturu",
+		"infrastructure_desc": "Təhlükəsiz, miqyaslana bilən hostinq və verilənlər saxlama.",
+		"consulting_title": "Strateji Məsləhət",
+		"consulting_desc": "Bazara giriş strategiyası, təchizat zəncirinin optimallaşdırılması və rəqabət kəşfiyyatı.",
+		"cta": "Layihənizi Müzakirə Edin"
+	},
+	"prices": {
+		"title": "Qəhvə Qiymətləri",
+		"subtitle": "Dünya Bankı və ICO-dan alınan Arabika və Robusta qəhvə üçün tarixi və cari bazar məlumatları.",
+		"chart_title": "Tarixi Qiymətlər (USD/kq)",
+		"arabica": "Arabika",
+		"robusta": "Robusta",
+		"range_1y": "1İ",
+		"range_5y": "5İ",
+		"range_10y": "10İ",
+		"range_all": "Hamısı",
+		"table_title": "Son Aylıq Qiymətlər",
+		"month": "Ay",
+		"source": "Mənbə: Dünya Bankı Əmtəə Qiymətləri Məlumatları (Pink Sheet)"
+	},
+	"footer": {
+		"brand": "AWAKE",
+		"tagline": "Qəhvə Kəşfiyyat Platforması",
+		"nav_title": "Naviqasiya",
+		"data_title": "Verilənlər",
+		"company_title": "Şirkət",
+		"copyright": "2025 AWAKE. Bütün hüquqlar qorunur.",
+		"built": "Bakıda qurulub."
+	}
+}

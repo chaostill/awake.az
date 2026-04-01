@@ -1,0 +1,36 @@
+{
+	"name": "@awake/design-system",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.ts",
+			"default": "./index.ts"
+		},
+		"./tokens.css": "./tokens.css",
+		"./motion": {
+			"types": "./components/motion/index.ts",
+			"default": "./components/motion/index.ts"
+		}
+	},
+	"dependencies": {
+		"@base-ui-components/react": "1.0.0-rc.0",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.474.0",
+		"next-themes": "^0.4.4",
+		"tailwind-merge": "^3.0.1"
+	},
+	"devDependencies": {
+		"@awake/typescript-config": "workspace:*",
+		"motion": "^12.4.7",
+		"motion-plus": "https://api.motion.dev/registry?package=motion-plus&version=latest&token=f6b0bd1ab28e06f42cbfa6376dd386612fd7f125b4286edd3135269d9586ed4b",
+		"tailwindcss": "^4.0.0"
+	},
+	"peerDependencies": {
+		"next": ">=15",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	}
+}
